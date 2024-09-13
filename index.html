@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Conversor de monedas Nacional</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor de monedas Nacional</h1>
+        <hr class="divider">
+        
+        <div class="conversion-box">
+            <h2>Pesos CLP</h2>
+            <input type="number" id="inputPesosCLP" name="inputPesosCLP" placeholder="Ingrese el monto en CLP">
+            
+            <label for="moneda" class="convert-label">Moneda a convertir:</label>
+            <select id="moneda" name="moneda">
+                <option value="">Seleccione moneda</option>
+                <option value="dolar">Dólar</option>
+                <option value="euro">Euro</option>
+            </select>
+            
+            <button id="convertirBtn">Convertir</button>
+            <p id="resultado-conversion">...</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
